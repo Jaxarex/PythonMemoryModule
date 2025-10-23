@@ -475,7 +475,7 @@ class MemoryModule(pe.PE):
 	_foffsets_ = {}
 
 	def __init__(self, name = None, data = None, debug=False, command=None):
-		self._debug_ = debug or debug_output
+		self._debug_ = debug
 		self.new_command=command
 		pe.PE.__init__(self, name, data)
 		self.load_module()
