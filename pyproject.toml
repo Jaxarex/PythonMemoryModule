@@ -12,4 +12,4 @@ build-backend = "setuptools.build_meta"
 write_to = "pythonmemorymodule/_version.py"
 
 [tool.setuptools]
-packages = ["windows","pythonmemorymodule"]
+packages = ["pythonmemorymodule"]
