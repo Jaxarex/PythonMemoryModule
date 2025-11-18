@@ -5,7 +5,7 @@ description = "pure-python implementation of MemoryModule technique to load a dl
 readme = "README.md"
 
 [build-system]
-requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel"]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel", "PythonForWindows"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
