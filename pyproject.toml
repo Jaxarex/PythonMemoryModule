@@ -4,7 +4,7 @@ dynamic = ["version"]
 description = "pure-python implementation of MemoryModule technique to load a dll or unmanaged exe entirely from memory"
 readme = "README.md"
 dependencies = [
-    "PythonForWindows",
+    "PythonForWindows", "pefile"
 ]
 
 [build-system]
