@@ -21,7 +21,7 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 import sys
 from ctypes import *
 from ctypes.wintypes import *
-import pythonmemorymodule.pefile as pe
+import pefile as pe
 import windows
 import threading
 import time
